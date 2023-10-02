@@ -1,0 +1,155 @@
+@import url("https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500&family=Poppins:wght@400;500&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "AR One Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  background-color: #8bc6ec;
+  background-image: linear-gradient(92deg, #8bc6ec 0%, #9599e2 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.resume-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  background: #fff;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.resume-container .left-side {
+  position: relative;
+  padding: 20px;
+  background: #2d4356;
+}
+.profile {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+.profile .profile-img {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.profile .profile-img img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.profile h1 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: 900;
+  letter-spacing: 1px;
+}
+.profile p {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+.contactInfo {
+  padding-top: 40px;
+}
+.title {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 20px;
+  letter-spacing: 1px;
+}
+.contactInfo ul {
+  position: relative;
+}
+.contactInfo ul li {
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.contactInfo ul li .icon {
+  display: inline-block;
+  width: 30px;
+  font-size: 18px;
+  color: #03a9f4;
+}
+.contactInfo ul li a {
+  color: #fff;
+}
+.contactInfo ul li span {
+  color: #fff;
+}
+.education {
+  color: #fff;
+  /* border: 1px solid #eee; */
+}
+.education h2 {
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+.education p {
+  font-size: 10px;
+}
+.languages ul li h2 {
+  display: inline-block;
+}
+.resume-container .right-side {
+  position: relative;
+  padding: 40px;
+}
+.right-side h1 {
+  font-size: 20px;
+}
+.right-side p {
+  align-items: center;
+  font-size: 16px;
+  color: #333;
+  margin-top: 4px;
+  margin-left: 20px;
+}
+.about {
+  padding: 40px;
+  margin: 10px 0;
+}
+.skill {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.skill p {
+  background-color: #9c9b9b;
+  color: #fff;
+  font-size: 14px;
+  padding: 5px;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+.project h5 {
+  font-size: 16px;
+  padding: 5px 0px 0px 0px;
+  margin-left: 30px;
+}
+.project p {
+  color: #333;
+  font-size: 10px;
+  font-weight: 200;
+  margin-left: 50px;
+}
